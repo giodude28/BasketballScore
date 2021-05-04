@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#CCFE5E2B"
+        app:cardElevation="5dp"
+        android:id="@+id/card1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:text="title"
+                    android:layout_margin="10dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text="title"
+                android:visibility="gone"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/taetae"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/view"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="Select"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+        </LinearLayout>
+            </LinearLayout>
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="View"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textColor="#ffffff"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:id="@+id/see"-->
+<!--                android:background="@drawable/taetae"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="center"/>-->
+<!--        </LinearLayout>-->
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
